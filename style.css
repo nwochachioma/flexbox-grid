@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+    color:hsl(0, 0%, 95%);
+    font-family: 'Lexend Deca', sans-serif;
+}
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+}
+h1{
+    font-family: 'Big Shoulders Display', cursive;
+    color: hsla(0,0%,100%,1);
+}
+.flex-box{
+    display: flex;
+    width: 720px;
+    margin: 150px auto
+}
+.sedan-box{
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 0 0 10px;
+    padding:40px 30px;
+    flex-basis: 240px;
+}
+.suvs-box{
+    background-color: hsl(184, 100%, 22%);
+    padding:40px 30px;
+    flex-basis: 240px;
+}
+.luxury-box{
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 10px 10px 0;
+    padding: 40px 30px;
+    flex-basis: 240px;
+}
+.sedan-box button{
+    color: hsl(31, 77%, 52%);
+    text-decoration: none;
+}
+.suvs-box button{
+    color: hsl(184, 100%, 22%);
+    text-decoration: none;
+}
+.luxury-box button{
+    color: hsl(179, 100%, 13%);
+    text-decoration: none;
+}
+button{
+    border-radius: 20px;
+    border: 2px solid hsl(0,0%,100%);
+    padding: 10px 20px;
+    margin-top: 50px;
+}
+button:active{
+    color: hsl(0,0%,100%);
+    background-color: hsla(0, 0%, 100%,0);
+}
+a{
+    font-size: 15px;
+}
